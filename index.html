@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Longo Dissertation Reports</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+    }
+    header h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 0.25rem; }
+    header p  { font-size: 0.95rem; color: #adb5bd; }
+    main { max-width: 860px; margin: 2.5rem auto; padding: 0 1.5rem; }
+    h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.08em;
+         color: #6c757d; margin: 2rem 0 0.75rem; border-bottom: 1px solid #dee2e6; padding-bottom: 0.4rem; }
+    .card {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 6px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.10); }
+    .card-title { font-weight: 600; font-size: 1rem; margin-bottom: 0.2rem; }
+    .card-sub   { font-size: 0.875rem; color: #6c757d; }
+    .badge {
+      font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.6rem;
+      border-radius: 4px; white-space: nowrap; margin-left: 1rem;
+    }
+    .badge-done  { background: #d1e7dd; color: #0f5132; }
+    .badge-draft { background: #fff3cd; color: #664d03; }
+    .badge-todo  { background: #e2e3e5; color: #41464b; }
+    a { text-decoration: none; color: inherit; display: block; }
+    footer { text-align: center; font-size: 0.8rem; color: #adb5bd;
+             padding: 2rem 0 3rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Longo Dissertation — Analysis Reports</h1>
+  <p>Black-throated Blue Warbler &bull; New Brunswick Clearcut Regeneration &bull; Bayesian Hierarchical Models</p>
+</header>
+
+<main>
+
+  <h2>Completed Chapters</h2>
+
+  <a href="Ch2_Analysis.html">
+    <div class="card">
+      <div>
+        <div class="card-title">Chapter 2 &mdash; BITH Successional Habitat &amp; PCT Treatment Effect</div>
+        <div class="card-sub">Joint Bayesian Analysis &bull; MBW (2012&ndash;2022) + HELP (2002&ndash;2011) &bull; Hurdle-Poisson &bull; LiDAR prior</div>
+      </div>
+      <span class="badge badge-done">Report</span>
+    </div>
+  </a>
+
+  <h2>Upcoming Chapters</h2>
+
+  <div class="card" style="opacity:0.55; cursor:default;">
+    <div>
+      <div class="card-title">Chapter 3 &mdash; TBD</div>
+      <div class="card-sub">Placeholder</div>
+    </div>
+    <span class="badge badge-todo">Pending</span>
+  </div>
+
+</main>
+
+<footer>Updated automatically on report render &bull; James Longo</footer>
+
+</body>
+</html>
